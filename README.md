@@ -1,27 +1,21 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=180&section=header&text=TumoreSense%20AI&fontSize=48&fontColor=ffffff&animation=twinkle&fontAlignY=35&color=8A2BE2&gradient=FF1493,4B0082"
+    src="https://capsule-render.vercel.app/api?type=slice&height=200&section=header&text=TumorSense%20AI&fontSize=50&fontColor=00ff00&animation=glitch&fontAlignY=38&color=0f0c29&gradient=302b63,24243e"
     width="100%"
     alt="TumorSense AI"
   />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wavy&height=5&color=FF4500&animation=fadeIn" width="100%" alt="wavy divider"/>
+  <img src="https://capsule-render.vercel.app/api?type=wavy&height=5&color=00ff00&animation=twinkle" width="100%" alt="divider"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/Python-Backend-FFD700?logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/CNN-CustomModel-8A2BE2" alt="CNN"/>
-  <img src="https://img.shields.io/badge/ResNet18-TransferLearning-1E90FF" alt="ResNet18"/>
-  <img src="https://img.shields.io/badge/MRI%20Dataset-4Classes-FF6347" alt="Dataset"/>
+  <img src="https://img.shields.io/badge/PyTorch-Deep_Learning-black?style=flat-square&logo=pytorch&logoColor=red" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/Python-Backend-black?style=flat-square&logo=python&logoColor=yellow" alt="Python"/>
+  <img src="https://img.shields.io/badge/Architecture-ResNet18-green?style=flat-square" alt="CNN"/>
+  <img src="https://img.shields.io/badge/Data-MRI_Scan-green?style=flat-square" alt="Dataset"/>
 </p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&height=6&color=8A2BE2&animation=twinkle" width="100%" alt="wave divider"/>
-</p>
-
 
 ## 🧠 Project Overview
 
