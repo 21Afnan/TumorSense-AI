@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=cylinder&height=200&section=header&text=TumorSense%20AI&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&color=00d2ff&animation=fadeIn"
+    src="https://capsule-render.vercel.app/api?type=cylinder&height=150&section=header&text=TumorSense%20AI&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&color=00d2ff&animation=fadeIn"
     width="100%"
     alt="TumorSense AI"
   />
