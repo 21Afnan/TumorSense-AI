@@ -2,7 +2,7 @@
   <img
     src="https://capsule-render.vercel.app/api?type=waving&height=180&section=header&text=TumoreSense%20AI&fontSize=48&fontColor=ffffff&animation=twinkle&fontAlignY=35&color=8A2BE2&gradient=FF1493,4B0082"
     width="100%"
-    alt="TumoreSense AI"
+    alt="TumorSense AI"
   />
 </p>
 
