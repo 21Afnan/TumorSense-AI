@@ -171,8 +171,8 @@ python src/resnet_model.py
 
 ## 🤝 Collaborators
 
-| Name               | GitHub                              | LinkedIn                                                                                   |
-|-------------------|------------------------------------|----------------------------------------------------------------------------------------------|
+| Name               | GitHub                                                 | LinkedIn                                                                |
+|--------------------|--------------------------------------------------------|-------------------------------------------------------------------------|
 | Afnan Shoukat      | [21Afnan] (https://github.com/21Afnan)                 | [Afnan Shoukat](https://linkedin.com/in/afnanshoukat)                   |            
 | Hina Tanveer       | [Hina Tanveer](https://github.com/hinatanveer)         | [Hina Tanveer](https://linkedin.com/in/hinatanveer)                     |
 | Usama Shahid       | [Usama Shahid](https://github.com/fewgets)             | [Usama Shahid  ](https://linkedin.com/in/-usamashahid)                  |
