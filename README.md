@@ -1,20 +1,20 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=soft&height=220&section=header&text=TumorSense%20AI&fontSize=60&fontColor=ffffff&animation=scaleIn&fontAlignY=35&color=ff9966&gradient=ff5e62,ff9966"
+    src="https://capsule-render.vercel.app/api?type=soft&height=200&section=header&text=TumorSense%20AI&fontSize=50&fontColor=ffffff&animation=twinkle&fontAlignY=35&color=d19bf7&gradient=00c6ff,f7797d,d19bf7"
     width="100%"
     alt="TumorSense AI"
   />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=8&color=ff5e62&animation=twinkle" width="100%" alt="wave divider"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=8&color=d19bf7&gradient=00c6ff,f7797d&animation=fadeIn" width="100%" alt="divider"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=plastic&logo=PyTorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54" alt="Python"/>
-  <img src="https://img.shields.io/badge/ResNet-18-ff5e62?style=plastic" alt="ResNet"/>
-  <img src="https://img.shields.io/badge/Accuracy-High-ff9966?style=plastic" alt="Accuracy"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=plastic&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=plastic&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/CNN-Model-0072ff?style=plastic" alt="CNN"/>
+  <img src="https://img.shields.io/badge/ResNet18-Transfer-00c6ff?style=plastic" alt="ResNet18"/>
 </p>
 
 ## 🧠 Project Overview
