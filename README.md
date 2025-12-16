@@ -173,7 +173,7 @@ python src/resnet_model.py
 
 | Name               | GitHub                                                 | LinkedIn                                                                |
 |--------------------|--------------------------------------------------------|-------------------------------------------------------------------------|
-| Afnan Shoukat      | [21Afnan] (https://github.com/21Afnan)                 | [Afnan Shoukat](https://linkedin.com/in/afnanshoukat)                   |            
+| Afnan Shoukat      | [21Afnan]     (https://github.com/21Afnan)             | [Afnan Shoukat](https://linkedin.com/in/afnanshoukat)                   |            
 | Hina Tanveer       | [Hina Tanveer](https://github.com/hinatanveer)         | [Hina Tanveer](https://linkedin.com/in/hinatanveer)                     |
 | Usama Shahid       | [Usama Shahid](https://github.com/fewgets)             | [Usama Shahid  ](https://linkedin.com/in/-usamashahid)                  |
 | Dur-e-Adan Noor    | [Dur-e-Adan Noor](https://github.com/dureadannoor-123) | [Dur-e-Adan Noor](https://www.linkedin.com/in/dure-adan-noor-29b01b2b5) |
