@@ -1,15 +1,19 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=TumorSense%20AI&fontSize=50&fontColor=ffffff&animation=venom&fontAlignY=35&color=00FFFF&gradient=0099F7,F11712"
+    src="https://capsule-render.vercel.app/api?type=cylinder&height=200&section=header&text=TumorSense%20AI&fontSize=50&fontColor=7F00FF&animation=venom&fontAlignY=35&color=ffffff&gradient=00d2ff,3a7bd5"
     width="100%"
     alt="TumorSense AI"
   />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PyTorch-Deep_Learning-white?style=flat&logo=pytorch&logoColor=red&color=black&labelColor=gray" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/Python-Backend-white?style=flat&logo=python&logoColor=yellow&color=black&labelColor=gray" alt="Python"/>
-  <img src="https://img.shields.io/badge/CNN-Architecture-white?style=flat&color=0099F7&labelColor=gray" alt="CNN"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=5&color=3a7bd5&animation=twinkle" width="100%" alt="divider"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/CNN-Model-3a7bd5?style=for-the-badge" alt="CNN"/>
 </p>
 ## 🧠 Project Overview
 
