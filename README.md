@@ -171,13 +171,13 @@ python src/resnet_model.py
 
 ## 🤝 Collaborators
 
-| Name               | GitHub                              | LinkedIn                                         |
-|-------------------|------------------------------------|-------------------------------------------------|
-| Afnan Shoukat      | [21Afnan](https://github.com/21Afnan) | [LinkedIn](https://linkedin.com/in/afnanshoukat) |
-| Hina Tanveer       | [GitHub](https://github.com/hinatanveer) | [LinkedIn](https://linkedin.com/in/hinatanveer) |
-| Usama Shahid       | [GitHub](https://github.com/fewgets) | [LinkedIn](https://linkedin.com/in/-usamashahid) |
-| Dure Addan Noor    | [GitHub](https://github.com/dureadannoor-123) | [LinkedIn](https://www.linkedin.com/in/dure-adan-noor-29b01b2b5) |
-| Salman Khan        | [GitHub](https://github.com/salmankhan) | [LinkedIn](https://linkedin.com/in/salmankhan) |
+| Name               | GitHub                              | LinkedIn                                                                                   |
+|-------------------|------------------------------------|----------------------------------------------------------------------------------------------|
+| Afnan Shoukat      | [21Afnan] (https://github.com/21Afnan)                 | [Afnan Shoukat](https://linkedin.com/in/afnanshoukat)                   |            
+| Hina Tanveer       | [Hina Tanveer](https://github.com/hinatanveer)         | [Hina Tanveer](https://linkedin.com/in/hinatanveer)                     |
+| Usama Shahid       | [Usama Shahid](https://github.com/fewgets)             | [Usama Shahid  ](https://linkedin.com/in/-usamashahid)                  |
+| Dur-e-Adan Noor    | [Dur-e-Adan Noor](https://github.com/dureadannoor-123) | [Dur-e-Adan Noor](https://www.linkedin.com/in/dure-adan-noor-29b01b2b5) |
+| Salman Khan        | [Salman Khan](https://github.com/salmankhan)           |  [Salman Khan](https://linkedin.com/in/salmankhan)                      |
 
 
 ## 📬 Contact
