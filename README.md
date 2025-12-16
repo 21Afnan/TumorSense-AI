@@ -1,25 +1,25 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=200&section=header&text=TumoreSense%20AI&fontSize=45&fontColor=ffffff&animation=twinkle&fontAlignY=38&color=8A2BE2&v=12"
+    src="https://capsule-render.vercel.app/api?type=waving&height=180&section=header&text=TumoreSense%20AI&fontSize=48&fontColor=ffffff&animation=twinkle&fontAlignY=35&color=8A2BE2&gradient=FF1493,4B0082"
     width="100%"
     alt="TumoreSense AI"
   />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=FF4500" width="100%" alt="red line"/>
+  <img src="https://capsule-render.vercel.app/api?type=wavy&height=5&color=FF4500&animation=fadeIn" width="100%" alt="wavy divider"/>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch"/>
   <img src="https://img.shields.io/badge/Python-Backend-FFD700?logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/CNN-CustomModel-9400D3" alt="CNN"/>
+  <img src="https://img.shields.io/badge/CNN-CustomModel-8A2BE2" alt="CNN"/>
   <img src="https://img.shields.io/badge/ResNet18-TransferLearning-1E90FF" alt="ResNet18"/>
   <img src="https://img.shields.io/badge/MRI%20Dataset-4Classes-FF6347" alt="Dataset"/>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&height=3&color=8A2BE2" width="100%" alt="wave line"/>
+  <img src="https://capsule-render.vercel.app/api?type=wave&height=6&color=8A2BE2&animation=twinkle" width="100%" alt="wave divider"/>
 </p>
 
 
