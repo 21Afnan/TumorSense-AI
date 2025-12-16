@@ -184,4 +184,4 @@ python src/resnet_model.py
 
 - **Email:** afnanshoukat011@gmail.com  
 - **GitHub:** [21Afnan](https://github.com/21Afnan)  
-- **LinkedIn:** [Linkedin](www.linkedin.com/in/afnanshoukat)
+- **LinkedIn:** [Linkedin](https://linkedin.com/in/afnanshoukat)
