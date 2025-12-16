@@ -177,7 +177,7 @@ python src/resnet_model.py
 | Hina Tanveer       | [Hina Tanveer](https://github.com/hinatanveer)         | [Hina Tanveer](https://www.linkedin.com/in/hinatanveer3810)             |
 | Usama Shahid       | [Usama Shahid](https://github.com/fewgets)             | [Usama Shahid  ](https://linkedin.com/in/-usamashahid)                  |
 | Dur-e-Adan Noor    | [Dur-e-Adan Noor](https://github.com/dureadannoor-123) | [Dur-e-Adan Noor](https://www.linkedin.com/in/dure-adan-noor-29b01b2b5) |
-| Salman Khan        | [Salman Khan](https://github.com/salmankhan)           |  [Salman Khan](https://www.linkedin.com/in/s4lmankhan)                  |
+| Salman Khan        | [Salman Khan](https://github.com/S4lmankhan)           |  [Salman Khan](https://www.linkedin.com/in/s4lmankhan)                  |
 
 
 ## 📬 Contact
