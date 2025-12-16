@@ -1,21 +1,27 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=cylinder&height=150&section=header&text=TumorSense%20AI&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&color=00d2ff&animation=fadeIn"
+    src="https://capsule-render.vercel.app/api?type=waving&height=200&section=header&text=TumoreSense%20AI&fontSize=45&fontColor=ffffff&animation=twinkle&fontAlignY=38&color=8A2BE2&v=12"
     width="100%"
-    alt="TumorSense AI"
+    alt="TumoreSense AI"
   />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=5&color=00d2ff&animation=fadeIn" width="100%" alt="divider"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=FF4500" width="100%" alt="red line"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/CNN-Model-0072ff?style=for-the-badge" alt="CNN"/>
-  <img src="https://img.shields.io/badge/ResNet18-Transfer-00c6ff?style=for-the-badge" alt="ResNet18"/>
+  <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/Python-Backend-FFD700?logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/CNN-CustomModel-9400D3" alt="CNN"/>
+  <img src="https://img.shields.io/badge/ResNet18-TransferLearning-1E90FF" alt="ResNet18"/>
+  <img src="https://img.shields.io/badge/MRI%20Dataset-4Classes-FF6347" alt="Dataset"/>
 </p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=wave&height=3&color=8A2BE2" width="100%" alt="wave line"/>
+</p>
+
 ## 🧠 Project Overview
 
 **TumoreSense AI** is a **deep learning system for multi-class brain tumor classification** using MRI images.  
