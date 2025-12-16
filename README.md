@@ -77,6 +77,7 @@ tumore-sense-AI/
 │   └── cnn/                    # Saved CNN weights
 ├── paper/
 │   └── reference_paper.pdf     # Paper PDF
+|──docs/
 └── screenshots/                # Sample prediction images
 ```
 
