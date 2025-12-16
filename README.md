@@ -32,12 +32,6 @@ It identifies four categories: **Glioma, Meningioma, Pituitary Tumor, and No Tum
 🎥 **Demo Video:** [Insert Video Link]  
 🌐 **Web Demo:** [Insert Website Link]
 
-🚀 Developed by:
-
-- **Afnan Shoukat** – Lead Model & Integration  
-- **Usama Shahid** – Backend & Deployment  
-- **Dure Addan Noor** – Data & Visualization  
-
 ---
 
 ## ✨ Key Features
@@ -134,9 +128,6 @@ cd tumore-sense-ai
 # Install dependencies
 pip install -r requirements.txt
 
-
-
-
 ## 💻 Running Models
 
 ### Custom CNN
@@ -145,8 +136,6 @@ python src/simple_cnn.py
 python src/resnet_model.py
 
 ```
-
-
 
 ## 📊 Results
 
