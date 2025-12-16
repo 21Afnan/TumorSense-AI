@@ -85,3 +85,103 @@ tumore-sense-AI/
 │   └── reference_paper.pdf     # Paper PDF
 └── screenshots/                # Sample prediction images
 ```
+
+## 🏗️ Architecture Overview
+
+```
+flowchart TD
+    A["MRI Input Images"] --> B["Data Preprocessing"]
+    B --> C["Model Layer"]
+    C --> D1["ResNet18"]
+    D1 --> E["Prediction Output"]
+    E --> F["Evaluation Metrics & Visualization"]
+```
+
+## 📥 Dataset
+
+**Brain Tumor MRI Dataset** – 4 classes: Glioma, Meningioma, Pituitary Tumors, and No Tumor.
+
+**Kaggle Link:** [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
+
+### 🔧 Download via Python (using `kaggle` API)
+
+```python
+# Install Kaggle API (if not already installed)
+!pip install kaggle
+
+# Make sure your Kaggle API token (kaggle.json) is in ~/.kaggle/
+
+# Download the dataset
+!kaggle datasets download -d masoudnickparvar/brain-tumor-mri-dataset
+
+
+## 🚀 Installation & Setup
+
+### 🔧 Prerequisites
+- Python 3.10+
+- PyTorch & torchvision
+- Matplotlib, seaborn, scikit-learn, PIL (Pillow)
+
+---
+
+### ⚙️ Installation
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/tumore-sense-ai.git
+cd tumore-sense-ai
+
+# Install dependencies
+pip install -r requirements.txt
+
+
+
+
+## 💻 Running Models
+
+### Custom CNN
+```bash
+python src/simple_cnn.py
+python src/resnet_model.py
+
+```
+
+
+
+## 📊 Results
+
+- **Accuracy & Loss Curves:** `results/resnet/` & `results/cnn/`  
+- **Confusion Matrix & Classification Report:** saved in results folders  
+- **Sample Predictions:** `screenshots/`  
+
+| Model       | Test Accuracy |
+|------------|---------------|
+| Custom CNN | 92–94%        |
+| ResNet18   | 96–97%        |
+
+## 🖼️ Screenshots
+
+- Sample Prediction  
+- Accuracy & Loss Curves  
+
+## 🔮 Future Enhancements
+
+- Real-time MRI scanner integration with bounding boxes  
+- Explainable AI (XAI) for model transparency  
+- Web-based GUI for predictions  
+
+## 🤝 Collaborators
+
+| Name               | GitHub                              | LinkedIn                                         |
+|-------------------|------------------------------------|-------------------------------------------------|
+| Afnan Shoukat      | [21Afnan](https://github.com/21Afnan) | [LinkedIn](https://linkedin.com/in/afnanshoukat) |
+| Hina Tanveer       | [GitHub](https://github.com/hinatanveer) | [LinkedIn](https://linkedin.com/in/hinatanveer) |
+| Usama Shahid       | [GitHub](https://github.com/fewgets) | [LinkedIn](https://linkedin.com/in/-usamashahid) |
+| Dure Addan Noor    | [GitHub](https://github.com/dureadannoor-123) | [LinkedIn](https://www.linkedin.com/in/dure-adan-noor-29b01b2b5) |
+| Salman Khan        | [GitHub](https://github.com/salmankhan) | [LinkedIn](https://linkedin.com/in/salmankhan) |
+
+
+## 📬 Contact
+
+- **Email:** afnanshoukat011@gmail.com  
+- **GitHub:** [21Afnan](https://github.com/21Afnan)  
+- **LinkedIn:** [Linkedin](www.linkedin.com/in/afnanshoukat)
