@@ -1,0 +1,10 @@
+torch
+torchvision
+kagglehub
+numpy
+matplotlib
+seaborn
+scikit-learn
+Pillow
+Optional (if using Google Colab files.upload):
+google-colab
