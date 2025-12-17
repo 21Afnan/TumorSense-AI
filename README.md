@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=200&section=header&text=NeuroAssist%20AI&fontSize=45&fontColor=ffffff&animation=twinkle&fontAlignY=38&color=8A2BE2&v=12"
+    src="https://capsule-render.vercel.app/api?type=waving&height=200&section=header&text=NeuroAssist%20&fontSize=45&fontColor=ffffff&animation=twinkle&fontAlignY=38&color=8A2BE2&v=12"
     width="100%"
     alt="NeuroAssist"
   />
