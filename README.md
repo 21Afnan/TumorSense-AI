@@ -29,7 +29,7 @@ It identifies four categories: **Glioma, Meningioma, Pituitary Tumor, and No Tum
 
 📄 **Reference Paper:** [PDF Link](https://link.springer.com/article/10.1007/s10278-025-01686-1)  
 🎥 **Demo Video:** [Insert Video Link]  
-🌐 **Web Demo:** [Insert Website Link]
+🌐 **Web Demo:** [Website Link](https://neuroassistai.vercel.app)
 
 ---
 
