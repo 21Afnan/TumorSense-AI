@@ -1,177 +1,110 @@
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=200&section=header&text=NeuroAssist%20&fontSize=45&fontColor=ffffff&animation=twinkle&fontAlignY=38&color=8A2BE2&v=12"
-    width="100%"
-    alt="NeuroAssist"
-  />
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A0D2E,50:C2185B,100:FF8FC7&height=200&section=header&text=TumorSense%20AI&fontSize=54&fontColor=FFFFFF&fontAlignY=36&desc=Lightweight%20CNN%20vs%20ResNet-18%20for%20brain%20tumour%20MRI%20classification&descSize=16&descAlignY=58" width="100%" alt="TumorSense AI"/>
+
+<p>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/ResNet--18-Transfer%20Learning-FF4FA3?style=for-the-badge" alt="ResNet-18"/>
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
+  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/>
+  <img src="https://img.shields.io/badge/License-MIT-FF4FA3?style=for-the-badge" alt="MIT License"/>
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=FF4500" width="100%" alt="red line"/>
-</p>
+**[Web demo](https://neuroassistai.vercel.app)** · [Reference paper](https://link.springer.com/article/10.1007/s10278-025-01686-1) · [Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/Python-Backend-FFD700?logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/CNN-CustomModel-9400D3" alt="CNN"/>
-  <img src="https://img.shields.io/badge/ResNet18-TransferLearning-1E90FF" alt="ResNet18"/>
-  <img src="https://img.shields.io/badge/MRI%20Dataset-4Classes-FF6347" alt="Dataset"/>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&height=3&color=8A2BE2" width="100%" alt="wave line"/>
-</p>
-
-## 🧠 Project Overview
-
-**TumoreSense AI** is a **deep learning system for multi-class brain tumor classification** using MRI images.  
-It identifies four categories: **Glioma, Meningioma, Pituitary Tumor, and No Tumor**.
-
-📄 **Reference Paper:** [PDF Link](https://link.springer.com/article/10.1007/s10278-025-01686-1)  
-🎥 **Demo Video:** [Insert Video Link]  
-🌐 **Web Demo:** [Website Link](https://neuroassistai.vercel.app)
+</div>
 
 ---
 
-## ✨ Key Features
+## The question
 
-### 🧩 1. Multi-Class Tumor Detection
-- Detects Glioma, Meningioma, Pituitary, or No Tumor in MRI scans  
-- Supports batch & single image prediction
+Do you need a large, pretrained network to classify brain tumours from MRI, or can a small CNN trained from scratch do almost as well? We reproduced the idea of the paper *Lightweight Transfer Learning Models for Multi-Class Brain Tumor Classification* and tested it ourselves, as a Computer Vision course project at NUML.
 
-### 🧠 2. Models Implemented
-- **Custom CNN** – Lightweight, fast inference  
-- **ResNet18** – Transfer Learning for higher accuracy
+Both models sort an MRI scan into one of four classes: **glioma, meningioma, pituitary tumour or no tumour**.
 
-### ⚙️ 3. Evaluation & Visualization
-- Training & validation curves  
-- Confusion matrix & classification report  
-- Sample predictions visualization  
+This repo is the transfer-learning extension of [NeuroAssistAI](https://github.com/21Afnan/NeuroAssistAI), our rebuild of a brain tumour diagnosis study, and the best model powers the same [web demo](https://neuroassistai.vercel.app).
 
-### 📊 4. Dataset & Preprocessing
-- MRI images with augmentation: rotation, flips, resizing, grayscale  
-- Train/Validation/Test split  
+## Results
 
-### 💾 5. Model Management
-- Save & load `.pth` trained weights  
-- Flexible for further fine-tuning or deployment  
+| Model | Training | Test accuracy |
+|---|---|:---:|
+| Custom CNN (from scratch) | 25 epochs, Adam, lr 0.001 | 92% to 94% |
+| **ResNet-18 (fine-tuned)** | 10 epochs, AdamW, lr 0.001 | **96% to 97%** |
 
----
+**Takeaway:** the pretrained ResNet-18 is more accurate and reaches its best result in fewer epochs, while the small CNN stays competitive and is much cheaper to run, a useful option where compute is limited.
 
-## 🗂️ Project Structure
+<table>
+<tr>
+<td align="center"><b>ResNet-18 confusion matrix</b><br/><img src="results/Resnet18/confusion_matrix.png" width="380" alt="ResNet-18 confusion matrix"/></td>
+<td align="center"><b>ResNet-18 accuracy curve</b><br/><img src="results/Resnet18/accuracy_curve.png" width="380" alt="ResNet-18 accuracy curve"/></td>
+</tr>
+<tr>
+<td align="center"><b>CNN confusion matrix</b><br/><img src="results/Cnn/confusion_matrix.png" width="380" alt="CNN confusion matrix"/></td>
+<td align="center"><b>CNN accuracy curve</b><br/><img src="results/Cnn/accuracy_curve.png" width="380" alt="CNN accuracy curve"/></td>
+</tr>
+</table>
 
-```
-tumore-sense-AI/
-│
-├── README.md                   # Project overview and instructions
-├── requirements.txt            # Python dependencies
-├── data/                       # Dataset instructions and folder structure (Kaggle link)
-├── src/
-│   ├── resnet_model.py         # ResNet18 implementation
-│   └── simple_cnn.py           # Custom CNN implementation
-├── results/
-│   ├── resnet/                 # Accuracy, loss plots, confusion matrix for ResNet
-│   └── cnn/                    # Accuracy, loss plots, confusion matrix for CNN
-├── models/
-│   ├── resnet/                 # Saved ResNet weights
-│   └── cnn/                    # Saved CNN weights
-├── paper/
-│   └── reference_paper.pdf     # Paper PDF
-|──docs/
-└── screenshots/                # Sample prediction images
-```
+Loss curves and full classification reports are in [`results/`](results), and sample predictions for every class are in [`predicted samples_screenshots/`](predicted%20samples_screenshots).
 
-## 🏗️ Architecture Overview
+## Method
 
-```
-flowchart TD
-    A["MRI Input Images"] --> B["Data Preprocessing"]
-    B --> C["Model Layer"]
-    C --> D1["ResNet18"]
-    D1 --> E["Prediction Output"]
-    E --> F["Evaluation Metrics & Visualization"]
-```
+| Step | Custom CNN | ResNet-18 |
+|---|---|---|
+| Input | Grayscale MRI | MRI (3 channels) |
+| Augmentation | Random horizontal flip, rotation up to 15 degrees, resize | Same |
+| Split | Train and validation (random split) plus a held-out test set | Same |
+| Architecture | 3 conv blocks (32, 64, 128 filters), dense layer of 256, 4-class output | ImageNet-pretrained ResNet-18 with a new 4-class head |
+| Batch size | 32 | 32 |
+| Saved weights | `models/brain_tumor_cnn.pth` | `models/brain_tumor_resnet18.pth` |
 
-## 📥 Dataset
+## Run it
 
-**Brain Tumor MRI Dataset** – 4 classes: Glioma, Meningioma, Pituitary Tumors, and No Tumor.
-
-**Kaggle Link:** [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
-
-### 🔧 Download via Python (using `kaggle` API)
-
-```python
-# Install Kaggle API (if not already installed)
-!pip install kaggle
-
-# Make sure your Kaggle API token (kaggle.json) is in ~/.kaggle/
-
-# Download the dataset
-!kaggle datasets download -d masoudnickparvar/brain-tumor-mri-dataset
-```
-
-## 🚀 Installation & Setup
-
-### 🔧 Prerequisites
-- Python 3.10+
-- PyTorch & torchvision
-- Matplotlib, seaborn, scikit-learn, PIL (Pillow)
-
----
-
-### ⚙️ Installation
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/tumore-sense-ai.git
-cd tumore-sense-ai
-
-# Install dependencies
+git clone https://github.com/21Afnan/TumorSense-AI.git
+cd TumorSense-AI
 pip install -r requirements.txt
-
-## 💻 Running Models
-
-### Custom CNN
-```bash
-python src/simple_cnn.py
-python src/resnet_model.py
-
 ```
 
-## 📊 Results
+Open either notebook in Jupyter or Google Colab and run all cells. The dataset downloads through `kagglehub`.
 
-- **Accuracy & Loss Curves:** `results/resnet/` & `results/cnn/`  
-- **Confusion Matrix & Classification Report:** saved in results folders  
-- **Sample Predictions:** `screenshots/`  
+- `src_code/..._CNN_code.ipynb`: train and evaluate the custom CNN
+- `src_code/..._Resnet_code.ipynb`: fine-tune and evaluate ResNet-18
 
-| Model       | Test Accuracy |
-|------------|---------------|
-| Custom CNN | 92–94%        |
-| ResNet18   | 96–97%        |
+To skip training, load the weights from `models/` directly.
 
-## 🖼️ Screenshots
+## Repository contents
 
-- Sample Prediction  
-- Accuracy & Loss Curves  
+```
+TumorSense-AI/
+├── src_code/                        # CNN and ResNet-18 notebooks
+├── models/                          # trained weights (.pth)
+├── results/                         # curves, confusion matrices, reports
+├── predicted samples_screenshots/   # sample predictions per class
+├── Research Paper/                  # reference paper
+├── docx/                            # project report and code printouts
+└── requirements.txt
+```
 
-## 🔮 Future Enhancements
+## Team
 
-- Real-time MRI scanner integration with bounding boxes  
-- Explainable AI (XAI) for model transparency  
-- Web-based GUI for predictions  
+| Member | GitHub | LinkedIn |
+|---|---|---|
+| **Afnan Shoukat** | [21Afnan](https://github.com/21Afnan) | [Afnan Shoukat](https://www.linkedin.com/in/afnanshoukat) |
+| Hina Tanveer | [hinatanveer](https://github.com/hinatanveer) | [Hina Tanveer](https://www.linkedin.com/in/hinatanveer3810) |
+| Usama Shahid | [fewgets](https://github.com/fewgets) | [Usama Shahid](https://linkedin.com/in/-usamashahid) |
+| Dur-e-Adan Noor | [dureadannoor-123](https://github.com/dureadannoor-123) | [Dur-e-Adan Noor](https://www.linkedin.com/in/dure-adan-noor-29b01b2b5) |
+| Salman Khan | [S4lmankhan](https://github.com/S4lmankhan) | [Salman Khan](https://www.linkedin.com/in/s4lmankhan) |
 
-## 🤝 Collaborators
+> Research and learning project only; not a medical device.
 
-| Name               | GitHub                                                 | LinkedIn                                                                |
-|--------------------|--------------------------------------------------------|-------------------------------------------------------------------------|
-| Afnan Shoukat      | [21afnan](https://github.com/21afnan)                  | [Afnan Shoukat](https://linkedin.com/in/afnanshoukat)                   |            
-| Hina Tanveer       | [Hina Tanveer](https://github.com/hinatanveer)         | [Hina Tanveer](https://www.linkedin.com/in/hinatanveer3810)             |
-| Usama Shahid       | [Usama Shahid](https://github.com/fewgets)             | [Usama Shahid  ](https://linkedin.com/in/-usamashahid)                  |
-| Dur-e-Adan Noor    | [Dur-e-Adan Noor](https://github.com/dureadannoor-123) | [Dur-e-Adan Noor](https://www.linkedin.com/in/dure-adan-noor-29b01b2b5) |
-| Salman Khan        | [Salman Khan](https://github.com/S4lmankhan)           |  [Salman Khan](https://www.linkedin.com/in/s4lmankhan)                  |
+---
 
+<div align="center">
 
-## 📬 Contact
+<a href="mailto:afnanshoukat35@gmail.com"><img src="https://img.shields.io/badge/Email-afnanshoukat35%40gmail.com-FF4FA3?style=for-the-badge&logo=gmail&logoColor=white&labelColor=4A0D2E" alt="Email"/></a>
+<a href="https://www.linkedin.com/in/afnanshoukat"><img src="https://img.shields.io/badge/LinkedIn-Afnan%20Shoukat-FF4FA3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=4A0D2E" alt="LinkedIn"/></a>
+<a href="https://github.com/21Afnan"><img src="https://img.shields.io/badge/GitHub-21Afnan-FF4FA3?style=for-the-badge&logo=github&logoColor=white&labelColor=4A0D2E" alt="GitHub"/></a>
 
-- **Email:** afnanshoukat011@gmail.com  
-- **GitHub:** [21Afnan](https://github.com/21Afnan)  
-- **LinkedIn:** [Linkedin](https://linkedin.com/in/afnanshoukat)
+Released under the [MIT License](LICENSE).
+
+</div>
